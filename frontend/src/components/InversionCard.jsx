@@ -89,7 +89,7 @@ export default function InversionCard({ inversion, forecast }) {
             {/* Inversion Lid (Warm Air Cap) */}
             <div className="h-1/3 bg-amber-500/20 border-y border-amber-500/40 flex items-center justify-between px-3 text-[11px] text-amber-300 font-semibold relative">
               <div className="flex items-center gap-1.5">
-                <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
+                <span className="w-2 h-2 rounded-full bg-amber-400" />
                 <span>Thermal Inversion Lid (ΔT +{strength}°C)</span>
               </div>
               <span>~{pblHeight}m Cap</span>

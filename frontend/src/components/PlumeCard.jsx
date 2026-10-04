@@ -26,11 +26,11 @@ export default function PlumeCard({ plume, firesCount, city, country }) {
       <div>
         <div className="flex items-center justify-between pb-4 border-b border-slate-800">
           <div className="flex items-center gap-2">
-            <Flame className={`w-5 h-5 ${isSouthAsia ? 'text-orange-500 animate-pulse' : 'text-slate-500'}`} />
+            <Flame className={`w-5 h-5 ${isSouthAsia ? 'text-orange-500' : 'text-slate-500'}`} />
             <h2 className="text-lg font-bold text-slate-100">Regional Smoke & Plume Attribution</h2>
           </div>
           <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-orange-500/10 text-orange-400 border border-orange-500/30 flex items-center gap-1.5">
-            <Radio className="w-3 h-3 text-orange-400 animate-ping" />
+            <Radio className="w-3 h-3 text-orange-400" />
             NASA FIRMS VIIRS/MODIS
           </span>
         </div>

@@ -161,7 +161,7 @@ export default function CurrentAqiCard({ forecast }) {
 
         {/* Feedback Impact Badge */}
         <div className="flex items-center gap-2 text-xs px-3 py-1.5 rounded-xl bg-purple-950/60 border border-purple-800/60 text-purple-300">
-          <span className="inline-block w-2 h-2 rounded-full bg-purple-400 animate-ping" />
+          <span className="inline-block w-2 h-2 rounded-full bg-purple-400" />
           Feedback Amplification: <strong>+{current.feedback_impact_pct}%</strong>
         </div>
       </div>
