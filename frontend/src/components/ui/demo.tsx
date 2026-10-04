@@ -395,7 +395,7 @@ export const ParallaxHero: React.FC<ParallaxHeroProps> = ({
           transform: 'translate(-50%, -50%)',
         }}
       >
-        <div className="text-black text-xs md:text-sm font-black mb-3 tracking-wide">
+        <div className="text-black text-xs md:text-sm font-black mb-3 tracking-wide bg-transparent border-none shadow-none">
           Coupled Weather–Chemistry Atmospheric Modeling
         </div>
 
@@ -404,7 +404,7 @@ export const ParallaxHero: React.FC<ParallaxHeroProps> = ({
         </h1>
 
         {subtitle && (
-          <p className="mt-4 text-sm md:text-lg font-black text-black max-w-2xl mx-auto">
+          <p className="mt-4 text-sm md:text-lg font-black text-black max-w-2xl mx-auto bg-transparent border-none shadow-none">
             {subtitle}
           </p>
         )}
